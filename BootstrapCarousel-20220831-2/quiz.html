@@ -26,16 +26,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="random_selector.html">RandomSelector<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="random_selector.html">RandomSelector</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="club_course.html">ClubCourse</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="quiz.html">Quiz</a>
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="quiz.html">Quiz<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="radio.html">Radio</a>
@@ -56,15 +56,12 @@
 
       <div class="container marketing">
         <hr class="featurette-divider">
-          <h1>?</h1> 
-          <input type="button" value="今天晚上吃什麼?">
-          <ul id="choices">
-              <li>拉麵</li>
-              <li>滷肉飯</li>
-              <li>水餃</li>
-              <li>鍋燒意麵</li>
-          </ul>
-          <img width="50%">
+        <h1>你今年的愛情是甚麼滋味?</h1> 
+        <div>
+            <h2 id="question"></h2>
+            <div id="options"></div>
+        </div>
+        <input id="startButton" type="button" value="開始作答">
           <hr class="featurette-divider">
       </div><!-- /.container -->
       <!-- FOOTER -->
@@ -83,6 +80,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="random_selector/main.js"></script>
+    <script src="quiz/data.js"></script>
+    <script src="quiz/main.js"></script>
   </body>
 </html>
